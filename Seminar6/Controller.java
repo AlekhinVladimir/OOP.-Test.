@@ -8,7 +8,7 @@ public class Controller {
        flowServis = new FlowServis();
     }
 
-    public void добавитьПоток(Flow flow) {
+    public void addFlow(Flow flow) {
         // код добавления потока
     }
 
