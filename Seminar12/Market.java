@@ -1,8 +1,4 @@
-interface MarketBehaviour {
-    void acceptOrder(String order); // Принять заказ
-    String serveOrder(); // Обслужить заказ и вернуть его
-    void update();
-}
+// Было нарушение принципов SRP и DIP. Исправлено.
 
 class Market implements MarketBehaviour {
     private final QueueBehaviour queue;
